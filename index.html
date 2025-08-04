@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Portfolio Nandio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio Nandio Difanusantara, seorang Front End Developer yang berpengalaman dalam HTML, CSS, dan JavaScript.">
+    <meta name="keywords" content="Portfolio, Nandio Difanusantara, Front End Developer, HTML, CSS, JavaScript">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <script src="script.js"></script>
+</body>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-logo">Web Portofolio</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="nav-link">Home</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#education" class="nav-link">Education</a></li>
+            <li><a href="#skills" class="nav-link">Skill</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+    <!-- bagian utama -->
+    <section id="home" class="section home-section">
+        <div class="home-content">
+            <h2 class="home-hi">Hi Everyone</h2>
+            <h1 class="home-name">
+                <span class="home-im">I'm</span>
+                <span class="home-nandio">Nandio Difanusantara</span>
+            </h1>
+            <h3 class="home-role">Front End Developer</h3>
+            <p class="home-desc">Halo saya Nandio, Saya Front End Beginner tanpa pengalaman hehe</p>
+        </div>
+    </section>
+    <!-- tentang saya -->
+    <section id="about" class="section about-section">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>Tentang Saya</h2>
+                <p>
+                Halo semuanya, nama saya Nandio Difanusantara, saya lahir di Bogor, Saya bersekolah di SMK Wikrama Bogor, dan saya ingin masuk jurusan PPLG.
+Saya memiliki beberapa hobi, seperti Silat dan Ngoding.
+Saya ingin masuk jurusan PPLG karena tertarik dengan dunia
+teknologi dan ingin mendalami lebih dalam.
+Cita-cita saya adalah menjadi seorang Full-Stack Developer,
+Ke depannya, saya harus lebih giat belajar, memperbanyak latihan, dan terus mencoba hal baru agar bisa berkembang dan mencapai tujuan saya. Terimakasih
+                </p>
+            </div>
+            <div class="about-photo">
+                <img src="WhatsApp Image 2025-08-02 at 17.40.30_5ddd9850.jpg"Foto Nandio" class="profile-img">
+            </div>
+        </div>
+    </section>
+    <!-- Edukasi -->
+    <section id="education" class="section education-section">
+        <h2 class="education-title">Education</h2>
+        <div class="timeline">
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-number">1</span>
+                    <h4>2022</h4>
+                    <h4>Graduated From Elementary School</h4>
+                    <p>Complete my primary education at SDN Cipaku Perumda</p>
+                </div>
+            </div>
+            <div class="timeline-ball"></div>
+            <div class="timeline-item right">
+                <div class="timeline-content">
+                    <span class="timeline-number">2</span>
+                    <h4>2025</h4>
+                    <h4>Graduated from Middle School</h4>
+                    <p>Graduated from SMPN 10 Bogor with a focus on mathematics and english</p>
+                </div>
+            </div>
+            <div class="timeline-ball"></div>
+            <div class="timeline-item left">
+                <div class="timeline-content">
+                    <span class="timeline-number">3</span>
+                    <h4>2025-Now</h4>
+                    <h4>Vocational High School</h4>
+                    <p>I school in SMK Wikrama Bogor, In this School I focus and want to become a Full-Stack Developer and major PPLG</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- skill nya bang Section -->
+    <section id="skills" class="section skills-section">
+        <h2 class="skills-title">My Skill</h2>
+        <div class="skills-container">
+            <div class="skill-card html">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML" class="skill-img">
+                <h3>HTML</h3>
+                <p>Alhamdulillah bisa buat struktur website hehe.</p>
+            </div>
+            <div class="skill-card css">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS" class="skill-img">
+                <h3>CSS</h3>
+                <p>Saya bisa membuat web Design.</p>
+            </div>
+            <div class="skill-card js">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-img">
+                <h3>JavaScript</h3>
+                <p>Membuat website menjadi interaktif.</p>
+            </div>
+            <div class="skill-card editing">
+                <img src="istockphoto-1419302607-170667a.jpg" alt="Editing" class="skill-img">
+                <h3>Editing</h3>
+                <p>Editing video.</p>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <h2 class="contact-title">Contact Me</h2>
+        <form id="contactForm" class="contact-form">
+            <input type="text" name="name" placeholder="Nama Anda" required>
+            <input type="email" name="email" placeholder="Email Anda" required>
+            <textarea name="message" placeholder="Pesan Anda" required></textarea>
+            <button type="submit" class="contact-send">Kirim Pesan</button>
+        </form>
+        <div class="contact-buttons">
+            <a href="https://instagram.com/nandiodifa" target="_blank" class="contact-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="https://wa.me/6285774075380" target="_blank" class="contact-btn whatsapp"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://www.tiktok.com/@nananzs777" target="_blank" class="contact-btn tiktok"><i class="fab fa-tiktok"></i> TikTok</a>
+            <a href="https://github.com/NandioWK" target="_blank" class="contact-btn github"><i class="fab fa-github"></i> GitHub</a>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
